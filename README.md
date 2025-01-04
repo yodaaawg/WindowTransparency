@@ -66,8 +66,8 @@ A customizable AutoHotkey (AHK) script that allows you to toggle and adjust the 
 3. Right-click the `*.ahk` script file and select **Run Script** to start controlling window transparency.
 
 You can also fully integrate the script with your system by placing it into your startup folder so you dont need to execute it everytime:
-1. Press Win + R.
-2. Type "shell:startup"
+1. Press `Win + R`.
+2. Type `shell:startup`
 3. Put the script inside the folder.
 
 ---
