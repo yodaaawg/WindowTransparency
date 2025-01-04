@@ -2,7 +2,7 @@
 
 A customizable AutoHotkey (AHK) script that allows you to toggle and adjust the transparency of the active window in real-time. The script provides visual feedback via a tooltip showing the current transparency level and offers intuitive keyboard controls to manage window opacity.
 
-![Transparency Toggle](./screenshot.png)
+![Transparency Toggle](./screenshot.PNG)
 
 
 ---
