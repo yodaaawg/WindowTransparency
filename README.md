@@ -51,7 +51,7 @@ A customizable AutoHotkey (AHK) script that allows you to toggle and adjust the 
   The transparency level starts at 220 (semi-transparent). You can adjust it from 0 (completely transparent) to 255 (completely opaque).
 
 - **Tooltip Duration**:  
-  By default, the tooltip will disappear after 3 seconds. You can adjust this duration by modifying the `titleChangeDuration` variable in the script (in milliseconds).
+  By default, the tooltip will disappear after 1 second. You can adjust this duration by modifying the `titleChangeDuration` variable in the script (in milliseconds).
 
 ---
 
