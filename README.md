@@ -13,6 +13,7 @@ A customizable AutoHotkey (AHK) script that allows you to toggle and adjust the 
 - **Adjust Transparency in Real-Time**: Control the opacity of the active window using your scroll wheel.
 - **Tooltip Feedback**: Displays the current transparency level in a tooltip near your mouse cursor.
 - **Full Transparency Control**: Adjust window transparency from fully opaque (255) to completely transparent (0).
+- **Toggle "Always on Top"**: Fixes the window above all the other windows.
 
 ---
 
@@ -29,13 +30,16 @@ A customizable AutoHotkey (AHK) script that allows you to toggle and adjust the 
 - **Increase Transparency**:  
   `CTRL + ALT + Scroll Up`  
   Increases the transparency by 10 units (up to 255, which is fully opaque).
-
+  
+- **Toggle "Always on Top"**:  
+  `CTRL + ALT + Middle Mouse Button (MMB)`  
+  Fixes the current focused window above all other windows.
 ---
 
 ## How It Works
 
 1. **Activation**:  
-   Hold `CTRL + ALT` and right-click anywhere inside the window you wish to modify. This enables transparency with an initial value of 220.
+   Use `CTRL + ALT + Right Mouse Button (RMB)` anywhere inside the window you wish to modify. This enables transparency with an initial value of 220.
    
 2. **Adjusting Transparency**:  
    Use `CTRL + ALT + Scroll Down` to make the window more transparent, or `CTRL + ALT + Scroll Up` to make it more opaque.
@@ -43,6 +47,8 @@ A customizable AutoHotkey (AHK) script that allows you to toggle and adjust the 
 3. **Tooltip**:  
    When transparency is adjusted, a tooltip will appear near your mouse cursor showing the current transparency level. The tooltip disappears after 3 seconds.
 
+4. **Always on Top**:  
+   When window is focused, use `CTRL + ALT + Middle Mouse Button (MMB)` to fix that window always above other windows.
 ---
 
 ## Customization
